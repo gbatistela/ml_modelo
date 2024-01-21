@@ -12,6 +12,7 @@ from sklearn.model_selection import train_test_split
 from sklearn.ensemble import RandomForestRegressor
 from sklearn.metrics import mean_squared_error
 
+@app.get("/Modelo_Machine_Learning.")
 def train_regression_model_with_feature(feature, label, test_size=0.2, random_state=42):
 
     # Selección de características (X) y etiquetas (y)
