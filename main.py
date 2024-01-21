@@ -9,7 +9,7 @@ from sklearn.model_selection import train_test_split
 from sklearn.ensemble import RandomForestRegressor
 from sklearn.metrics import mean_squared_error
 
-df = pd.read_csv("bq_query1.csv")
+df = pd.read_csv("bq_query.csv")
 
 
 
